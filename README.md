@@ -1,3 +1,3 @@
 # WeatherForecast
 
-use python weather.py "city naame"
+use python weather.py "city name"
