@@ -4,7 +4,7 @@ import sys
 
 
 def get_weather(city):
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid=b4293aeb9e23fa468b335ab1615099f3"
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid=(your api key)"
     response = requests.get(url)
 
     if response.status_code == 200:
